@@ -6,7 +6,7 @@ import main
 
 MAP_SIZE = 20, 18  # each side of the field is 40 x 35 tiles
 
-map_pixels = int(MAP_SIZE[0] * 16, MAP_SIZE[1] * 16)
+map_pixels = (int(MAP_SIZE[0] * 16), int(MAP_SIZE[1] * 16))
 total_width = int(map_pixels[0] * 2)
 total_height = int(map_pixels[1])
 
