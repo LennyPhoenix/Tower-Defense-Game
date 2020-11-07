@@ -1,1 +1,5 @@
-from main import *
+from .main import *
+
+
+def start():
+    pyglet.app.run()
